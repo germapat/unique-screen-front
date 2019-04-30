@@ -1,0 +1,449 @@
+// app global css
+.titulo{
+    font-size: 20px;
+    letter-spacing: 0.005em;
+    font-weight: 400;
+}
+.text-bold-500 {
+    font-weight: 500;
+}
+@media screen and (max-width: 2000px) {
+    .responsive-table {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 1275px) {
+    .responsive-table {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .responsive-table {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .responsive-table {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1119px) {
+    .responsive-table {
+        width: 500px;
+    }
+}
+
+.bg-blue-emtelco {
+  background: #00daff !important;
+}
+.bg-blue-une {
+  background: #50bdeb !important;
+}
+.bg-blue-une-l {
+  background: #50bdeb !important;
+}
+.text-blue-une-l {
+  color: #00C8FF !important;
+}
+.text-blue-une {
+  color: #00377B !important;
+}
+.text-blue-emtelco {
+  color: #00daff !important;
+}
+.bg-green-emtelco, .bg-green-emtelco {
+  background: #bfdf14 !important;
+}
+.text-green-emtelco {
+  color: #bfdf14 !important;
+}
+.bg-blue-emtelco-d{
+    background: #003690;
+}
+.text-blue-emtelco-d{
+    color: #003690;
+}
+.padding{
+    padding: 0 5px;
+}
+.bg-home{
+    position fixed;
+    width: 100%;
+    height 100%;
+    top: 0;
+    left 0;
+    background-image url('../statics/bg-home.jpg');
+    background-size: cover;
+    background-position: center top;
+    z-index -1;
+}
+.q-card, .q-tabs-panes {
+    background: rgba(255, 255, 255, 0.9);
+}
+.q-card{
+    background: rgba(255,255,255,0.9);
+    min-height: 183px;
+      -webkit-animation-name: fade-cards;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade-cards;
+  animation-duration: 1s;
+  transition: .2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fade-cards {
+  0% {
+    margin-top: 100%;
+  }
+
+  100% {
+    margin-top: 0%;
+  }
+}
+
+/* Standard syntax */
+@keyframes fade-cards {
+  0% {
+    margin-top: 500px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+blockquote {
+    padding: 8px 16px;
+    border-left: 5px solid #bfdf14;
+    color: #5f5f5f;
+}
+
+blockquote i.material-icons {
+    font-size: 25px;
+}
+.icon-form i{
+    font-size: 20px !important;
+    padding: 0 15px 0 0;
+    color: #00a1ce;
+}
+.q-table-container {
+    box-shadow: 0 0 0;
+    margin-top: 10px;
+}
+thead {
+    background: rgba(0, 203, 255, 0.1);
+}
+.q-inner-loading.dark {
+    background: rgba(0, 0, 0, 0.2);
+}
+.q-table thead{
+    border-color: rgba(0, 203, 255, 0.5);
+}
+
+/**********
+LOGIN STYLE
+**********/
+body{
+  overflow-x: hidden;
+}
+#login .bg-login {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url(../statics/bg-login.png);
+  background-size: cover;
+  background-position: center left ;
+  background-repeat: no-repeat;
+  z-index: -1;
+  -webkit-animation-name: fade-bgl;
+  -webkit-animation-duration: 1s;
+  animation-name: fade-bgl;
+  animation-duration: 1s;
+  transition: .2s;
+}
+
+.bg-login-color {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  opacity: .5;
+  -webkit-animation-name: fade-bgl;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade-bgl;
+  animation-duration: 1s;
+  transition: .2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fade-bgl {
+  0% {
+    width: 120%
+  }
+
+  100% {
+    width: 70%
+  }
+}
+
+/* Standard syntax */
+@keyframes fade-bgl {
+  0% {
+    width: 120%
+  }
+
+  100% {
+    width: 70%
+  }
+}
+
+#login .container-left {
+  z-index: 1;
+  background: linear-gradient(to right, white, white, white, white, #ffffffed, #ffffff7a, #ffffff00);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  -webkit-animation-name: fade-cont;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fade-cont;
+  animation-duration: 1s;
+  transition: .2s;
+}
+
+.content-image img {
+  height: 70px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fade-cont {
+  0% {
+    left: -60%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/* Standard syntax */
+@keyframes fade-cont {
+  0% {
+    left: -60%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+#login .container-form {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+  transition: .2s;
+}
+
+#login .form-login {
+  width: 450px;
+  margin: auto;
+  transition: .2s;
+}
+
+#login .logo {
+  height: 130px;
+  background-image: url(../statics/puc.png);
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5px;
+  transition: .2s;
+}
+
+#login .form-inputs {
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 250px;
+  transition: .2s;
+}
+
+.lbl-error {
+  color: red;
+}
+
+#login .footer {
+  position: absolute;
+  max-width: 350px;
+  bottom: 0;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #616161;
+}
+
+#login .footer a, .footer-modal a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#login .logo2 {
+  height: 50px;
+  background-image: url(../statics/logo/Logo-emtelco-color.png);
+  background-size: auto 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5px;
+}
+
+#login .form-inputs p {
+  color: #6b6b6b !important;
+}
+
+.padding {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.actions {
+  width: 100px;
+}
+
+@media (max-width: 1240px) {
+  #login .logo {
+    background-size: 70% auto;
+    transition: .2s;
+  }
+}
+
+.btn-notes span{
+  margin-left: 5px;
+}
+
+@media (max-width: 800px) {
+
+  #login .bg-login,
+  .bg-login-color {
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    right: 0;
+    background-position: center right;
+    transition: .2s;
+  }
+
+  .content-start {
+    width: 100%;
+}
+
+  .q-tab-label {
+    font-size: 14px;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes fade-bgl {
+    0% {
+      height: 120%
+    }
+
+    100% {
+      height: 70%
+    }
+  }
+
+  /* Standard syntax */
+  @keyframes fade-bgl {
+    0% {
+      height: 120%
+    }
+
+    100% {
+      height: 70%
+    }
+  }
+
+  #login .container-left {
+    background: linear-gradient(to top, white, white, white, white, #ffffffed, #ffffff7a, #ffffff00);
+    bottom: 40px;
+    left: 0;
+    top: auto;
+    width: 100%;
+    height: 60%;
+    transition: .2s;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes fade-cont {
+    0% {
+      bottom: -10%;
+    }
+
+    100% {
+      bottom: 40px;
+    }
+  }
+
+  /* Standard syntax */
+  @keyframes fade-cont {
+    0% {
+      bottom: -60%;
+    }
+
+    100% {
+      bottom: 40px;
+    }
+  }
+
+  #login .container-form {
+    width: 100%;
+    transition: .2s;
+  }
+  #login .bg-login {
+    background-position: center !important ;
+  }
+}
+
+.form-login-modal {
+  max-width: 444px;
+}
+
+#btnicon {
+  display: inline-flex;
+  z-index: +1;
+  background: radial-gradient(farthest-corner at 80% 100%, #1f4399 0%, #22c0f0 200%);
+  position: absolute;
+  left: 0;
+}
+
+#btntxt {
+  display: inline-flex;
+  z-index: 0;
+  margin-left: -30px;
+  width: 220px;
+  background: radial-gradient(farthest-corner at 80% 100%, #1f4399 0%, #22c0f0 200%);
+}
+
+.modal-profile .modal-content {
+  max-width: 500px;
+  padding: 40px 30px;
+}
+.col-md-12.password {
+  padding: 15px 0 0;
+}
+.password a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 13px;
+}
+/* END LOGIN STYLE */
